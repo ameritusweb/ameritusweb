@@ -18,6 +18,16 @@ Most of my repos are working experiments behind an essay:
 
 I also build other things for fun — [cloudcad](https://github.com/ameritusweb/cloudcad) (web-based CAD with Babylon.js + CadQuery), games, transpilers, UI frameworks.
 
+## Outconceive
+
+[**Outconceive**](https://github.com/outconceive) is my studio — where the bigger builds live:
+
+- 🎲 [**outconceive.com**](https://outconceive.com) — unconventional strategy games. First up: **Warp 1 Chess**, dimensional chess on overlapping boards, with an AI trained on 174,000 self-play matches that discovered strategies I didn't design in.
+- 🧵 [**pst-os**](https://github.com/outconceive/pst-os) — an operating system built on Parallel String Theory, in Rust. The essay behind it: [Position is Identity in OS Design](https://ameritusweb.substack.com/p/position-is-identity-in-os-design).
+- 🏥 [**followup**](https://github.com/outconceive/followup) — a mobile app for whoever accompanies a patient to the ER: it interviews you while you wait and produces a timestamped, plain-language observation record for the triage nurse.
+
 ## Where to find me
 
 📝 **Substack:** [ameritusweb.substack.com](https://ameritusweb.substack.com) — essays on AI architecture, structural safety, and where scaling breaks down. If any repo here made you curious, the writing is where the ideas connect.
+
+🎮 **Outconceive:** [outconceive.com](https://outconceive.com) — where the inconceivable becomes playable.
