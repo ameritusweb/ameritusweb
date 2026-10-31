@@ -2,7 +2,13 @@
 
 I build AI architectures from first principles — often in C#, usually from scratch — to test ideas that don't fit the "scale it and see" paradigm. Then I write up what I learn at [**Scott's Thoughts**](https://ameritusweb.substack.com), my Substack on AI architecture, interpretability, and grounded cognition.
 
-The through-line across everything here: I think the interesting open problems in AI are **structural**, not scale-bound — how intelligence is grounded, how it compartmentalizes, how we can read what it's doing from the physics of the computation rather than the geometry of its activations.
+The through-line across everything here: I think the interesting open problems in AI are **structural**, not scale-bound — how intelligence is grounded, how it compartmentalizes, how we can read what it's doing from the physics of the computation rather than the geometry of its activations. Gerundelle is where that conviction landed.
+
+## What's New
+
+[**Gerundelle**](https://github.com/ameritusweb/gerundelle) is a formally verified architecture of mind — twelve layers, from world physics to narrative, machine-checked in Lean 4. **24 files, 301 theorems, no unfinished proofs.**
+
+The paper: **GERUNDELLE: A Formally Verified Architecture of Mind** — the proofs from six fields of mathematics (information security, symmetry groups, fiber bundles, learning theory, graded monads, provenance calculi) turn out to describe the same architecture. A theorem proves that what an agent perceives and what it feels are the same mathematical structure at two levels.
 
 ## The code and the writing go together
 
@@ -10,6 +16,7 @@ Most of my repos are working experiments behind an essay:
 
 | Repo | What it is | The essay |
 |------|-----------|-----------|
+| [gerundelle](https://github.com/ameritusweb/gerundelle) | A formally verified architecture of mind — 12 layers, 301 theorems, 5 domains, a book, and a paper | — |
 | [ArtificialBiologicalIntelligence](https://github.com/ameritusweb/ArtificialBiologicalIntelligence) | Growing intelligence from endorphin/pain receptors up to grounded language via evolutionary receptor topology — 138 receptors, 16 families, 46 steps | [Growing Intelligence From Scratch](https://ameritusweb.substack.com/p/artificial-biological-intelligence) |
 | [thermodynamic-epistemic-routing](https://github.com/ameritusweb/thermodynamic-epistemic-routing) | 98.4% factual/speculative classification with zero inference-time parameters, by measuring forward-pass energy | [The Thermodynamic Interpretability Breakthrough That Scales](https://ameritusweb.substack.com/p/the-thermodynamic-interpretability) |
 | [ParallelReverseAutoDiff](https://github.com/ameritusweb/ParallelReverseAutoDiff) | PRAD — parallel reverse-mode automatic differentiation in C# for building custom neural networks. The engine under most of my ML work | [Why Scaling Laws Break Down](https://ameritusweb.substack.com/p/why-scaling-laws-break-down-and-how) |
